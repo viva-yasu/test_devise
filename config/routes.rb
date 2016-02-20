@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'main/', to: 'main#index'
+
   devise_for :users
   root 'pages#index'
   get 'pages/show'
