@@ -36,6 +36,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'omniauth-twitter'
 
+# translate devise gem into Japanese
+gem 'devise-i18n'
+gem 'devise-i18n-views'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
